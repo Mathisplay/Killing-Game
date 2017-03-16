@@ -9,18 +9,21 @@
 <body>
 	
 <div>
-<img id="mainscreen" src="Graphics/Menu.jpg" align="middle">
+	<img id="mainscreen" src="Graphics/Menu.jpg" align="middle">
 </div>
 
 <script>
-    function autoResizeDiv()
-    {
+    	function autoResizeDiv()
+   	 {
 		document.getElementById('mainscreen').style.height = window.innerHeight +'px';
-    }
-    window.onresize = autoResizeDiv;
-
+    	}
+    	window.onresize = autoResizeDiv;
+	
 	var MenuMusic = new Audio("/Music/Menu Music.mp3");
-	MenuMusic.play();
+	MenuMusic.addEventListener("touchstart", function() {
+ 	MenuMusic.play();
+	});
+
   	autoResizeDiv();
 </script>
 
