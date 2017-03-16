@@ -8,42 +8,9 @@
 
 #presstostart{
 	position: fixed;
-	height: 100%;
-	width: 100%;
-	top: 20%;
-}
-
-#donald{
-	width: 100%
+	width: auto;
 	height: auto;
-}
-
-#opis{
-	position: absolute;
-	left: 2px;
-	top: 0px;
-	color: white;
-}
-
-#opis2{
-	position: absolute;
-	left: 2px;
-	bottom: 0px;
-	color: white;
-}
-
-#opis3{
-	position: absolute;
-	right: 2px;
-	top: 0px;
-	color: white;
-}
-
-#opis4{
-	position: absolute;
-	right: 2px;
-	bottom: 0px;
-	color: white;
+	top: 20%;
 }
 
 #opis5{
