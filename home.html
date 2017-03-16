@@ -14,17 +14,24 @@
 
 <script>
     	function autoResizeDiv()
-   	 {
+   	{
 		document.getElementById('mainscreen').style.height = window.innerHeight +'px';
     	}
     	window.onresize = autoResizeDiv;
 	
 	var MenuMusic = new Audio("/Music/Menu Music.mp3");
-	MenuMusic.addEventListener("touchstart", function() {
- 	MenuMusic.play();
-	});
+	function play()
+	{
+		MenuMusic.play();
+	}
+	
+	function listen()
+	{
+		MenuMusic.addEventListener("touchstart", play, false);	
+	}
 
   	autoResizeDiv();
+	listen();
 </script>
 
 </body>
