@@ -14,6 +14,5 @@
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, 0%);
-	background: url("Graphics/Danganronpa Button.png") no-repeat top left transparent;
-	color: #000000;
+	background: url(https://github.com/Mathisplay/Killing-Game/blob/master/Graphics/Button%20Danganronpa.png) no-repeat;
 }
