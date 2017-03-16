@@ -18,7 +18,7 @@
 		document.getElementById('mainscreen').style.height = window.innerHeight +'px';
     	}
     	window.onresize = autoResizeDiv;
-	
+	var Screen = document.getElementById('mainscreen');
 	var MenuMusic = new Audio("/Music/Menu Music.mp3");
 	function play()
 	{
@@ -27,7 +27,8 @@
 	
 	function listen()
 	{
-		MenuMusic.addEventListener("click", play, false);	
+		Screen.addEventListener("click", play, false);
+		Screen.addEventListener("touchstart", play, false);	
 	}
 
   	autoResizeDiv();
