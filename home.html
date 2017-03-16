@@ -7,10 +7,6 @@
 	<script src="jquery-2.2.3.min.js"></script>
 </head>
 <body>
-
-<audio src="/Music/Menu Music.mp3" autoplay loop>
-Audio nie działa. No cóż.
-</audio>
 	
 <div>
 <img id="mainscreen" src="Graphics/Menu.jpg" align="middle">
@@ -22,7 +18,10 @@ Audio nie działa. No cóż.
 		document.getElementById('mainscreen').style.height = window.innerHeight +'px';
     }
     window.onresize = autoResizeDiv;
-    autoResizeDiv();
+
+	var MenuMusic = new Audio("/Music/Menu Music.mp3");
+	MenuMusic.play();
+  	autoResizeDiv();
 </script>
 
 </body>
