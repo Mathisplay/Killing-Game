@@ -28,8 +28,8 @@
 	
 	function listen() //Czekanie na input
 	{
-		Screen.addEventListener("click", play, false); //PC
-		Screen.addEventListener("touchstart", play, false); //Android	
+		document.body.addEventListener("click", play, false); //PC
+		document.body.addEventListener("touchstart", play, false); //Android	
 	}
 
   	autoResizeDiv();
