@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Killing Game</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<script src="jquery-2.2.3.min.js"></script>
+</head>
+<body>
+
+<div>
+<img id="mainscreen" src="Menu.jpg" align="middle">
+</div>
+
+<script>
+    function autoResizeDiv()
+    {
+		document.getElementById('mainscreen').style.height = window.innerHeight +'px';
+    }
+    window.onresize = autoResizeDiv;
+    autoResizeDiv();
+	/*function hello()
+	{
+		alert("Hello");
+	}
+	
+	var i=0;
+	var j=0;
+	var k=0;
+	
+	jQuery(document).ready(function(){
+		$("#przycisk2").click(function(){
+		console.log("Kliknięto przycisk!");
+		if(i==0)
+		{
+			$("#p_imie").append("Mateusz ");
+		}
+		else if(i==1)
+		{
+			$("#p_imie").append("Maciek ");
+		}
+		else if(i==2)
+		{
+			$("#p_imie").append("Natalia ");
+		}
+		else if(i==3)
+		{
+			$("#p_imie").append("Kuba ");
+		}
+		else if(i==4)
+		{
+			$("#p_imie").append("Patrycja ");
+		}
+		++i;
+		if(i>4)
+			i=0;
+		//$("#p_imie").css("font-size", "50px");
+		$("#p_imie").animate({
+			fontSize: "+=5"
+			}, 1000);
+		});
+		
+		function aktualizuj(){
+			$("#blok3").append(j);
+			$("#blok3").append(" ");
+			var obecnaData = new Date();
+			$("#blok4").html(" ");
+			$("#blok4").append(obecnaData.getHours());
+			$("#blok4").append(":");
+			if(obecnaData.getMinutes()>9)
+				$("#blok4").append(obecnaData.getMinutes());
+			else
+			{
+				$("#blok4").append("0");
+				$("#blok4").append(obecnaData.getMinutes());
+			}
+			$("#blok4").append(":");
+			if(obecnaData.getSeconds()>9)
+				$("#blok4").append(obecnaData.getSeconds());
+			else
+			{
+				$("#blok4").append("0");
+				$("#blok4").append(obecnaData.getSeconds());
+			}
+			++j;
+			k++;
+		}
+		
+		setInterval(aktualizuj, 10);
+		
+	});
+	*/
+</script>
+
+</body>
+</html>
