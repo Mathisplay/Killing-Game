@@ -14,5 +14,5 @@
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, 0%);
-	background: url("/Graphics/Danganronpa Button.png") no-repeat;
+	background: url("Graphics/Danganronpa Button.png") no-repeat top left;
 }
