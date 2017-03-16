@@ -8,11 +8,12 @@
 
 .presstostart{
 	position: fixed;
-	width: 559px;
-	height: 161px;
+	width: 500px;
+	height: 144px;
 	top: 20%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, 0%);
 	background: url("Graphics/Button Danganronpa.png");
+	background-size: 100%;
 }
