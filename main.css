@@ -6,7 +6,7 @@
 	transform: translate(-50%, 0%);
 }
 
-#presstostart{
+.presstostart{
 	position: fixed;
 	width: 559px;
 	height: 161px;
