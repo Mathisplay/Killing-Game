@@ -13,23 +13,23 @@
 </div>
 
 <script>
-    	function autoResizeDiv()
+    	function autoResizeDiv() //Resize tła do okna
    	{
 		document.getElementById('mainscreen').style.height = window.innerHeight +'px';
     	}
     	window.onresize = autoResizeDiv;
 	var Screen = document.getElementById('mainscreen');
 	var MenuMusic = new Audio("/Music/Menu Music.mp3");
-	function play()
+	function play() //Odtwarzanie muzyki w pętli
 	{
 		MenuMusic.setLooping(true);
 		MenuMusic.play();
 	}
 	
-	function listen()
+	function listen() //Czekanie na input
 	{
-		Screen.addEventListener("click", play, false);
-		Screen.addEventListener("touchstart", play, false);	
+		Screen.addEventListener("click", play, false); //PC
+		Screen.addEventListener("touchstart", play, false); //Android	
 	}
 
   	autoResizeDiv();
