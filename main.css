@@ -6,8 +6,10 @@
 	transform: translate(-50%, 0%)
 }
 
-#blok2{
-	height: 2000px;
+#presstostart{
+	height: 100%;
+	width: 100%;
+	top: 20%;
 }
 
 #donald{
