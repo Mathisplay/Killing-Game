@@ -2,14 +2,14 @@
 	position: fixed;
 	top: 0px;
 	left: 50%;
-    margin-right: -50%;
+	margin-right: -50%;
 	transform: translate(-50%, 0%)
 }
 
 #presstostart{
 	position: fixed;
-	width: auto;
-	height: auto;
+	width: 559px;
+	height: 161px;
 	top: 20%;
 }
 
